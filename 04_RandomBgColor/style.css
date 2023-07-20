@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    /* font-size: 22px; */
+    font: inherit;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+
+}
+
+button:active{
+    transform: scale(0.98);
+}
