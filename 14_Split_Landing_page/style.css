@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+
+}
+
+.left {
+    background: url('./download.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s ease;
+}
+
+.left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(129, 129, 227, 0.537);
+    height: 100%;
+    width: 100%;
+
+}
+
+.left h2 {
+    color: white;
+    background: rgba(193, 193, 193, 0.666);
+    color: black;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+
+}
+
+.left button {
+    margin: 5px 0;
+    border: none;
+    width: 11rem;
+    padding: 11px 23px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+.left button:hover {
+    background-color: rgba(78, 78, 225, 0.719);
+    border: none;
+}
+
+
+.right {
+    background: url('./877a7487-aa48-4a08-b2a7-64ef2608f25b.jpg');
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: width 0.3s ease;
+
+}
+
+.right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.537);
+    height: 100%;
+    width: 100%;
+
+}
+
+.right h2 {
+    color: white;
+    background: rgba(193, 193, 193, 0.666);
+    color: black;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.right button {
+    margin: 5px 0;
+    border: none;
+    width: 11rem;
+    padding: 11px 23px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.right button:hover {
+    background-color: rgb(1, 87, 17);
+    border: none;
+}
+
+
+.container.left-active .left{
+    width: 85vw;
+}
+
+
+.container.right-active .right{
+    width: 75vw;
+}
