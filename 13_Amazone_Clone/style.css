@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* family=Roboto&display=swap */
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+
+/** Utility **/
+.overflow {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border1 {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.space-even {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.p-5 {
+    padding: 0 5px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-4 {
+    margin: 1px 4px;
+}
+
+.m-2 {
+    margin: 1px 2px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.m-l-11 {
+    margin-left: 11px;
+}
+
+.no-border {
+    border: none;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.span-top {
+    color: #b9b9b9;
+    font-size: 12px;
+}
+
+.span-bottom {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.dropdown {
+    border: none;
+    background: transparent;
+    color: white;
+    /* font-size: 9px; */
+    width: 16px;
+    outline: none;
+}
+
+.f-base {
+    justify-content: baseline;
+}
+
+.cover {
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/** Nav **/
+nav {
+    height: 60px;
+    width: 100vw;
+    color: white;
+    background-color: #131921;
+}
+
+nav span.bold {
+    font-size: 15px;
+}
+
+/** Left **/
+
+.left .logo img {
+    width: 7rem;
+    margin: 1px;
+    padding: 0 6px;
+}
+
+.address {
+    padding: 10px 5px;
+}
+
+.address i {
+    margin-bottom: 5px;
+}
+
+/** Mid **/
+.mid {}
+
+.mid select {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #e1e1e1;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.mid select:hover {
+    background: #dadada;
+}
+
+.mid input {
+    height: 40px;
+    border: none;
+    width: 35rem;
+    font-size: 18px;
+    outline: none;
+}
+
+.mid .btn {
+    height: 40px;
+    width: 50px;
+    border: none;
+    background: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.mid .btn i {
+    font-size: 1.2rem;
+}
+
+/** Right **/
+.right-items {
+    margin: 0 5px;
+}
+
+.right {
+    margin: 1px 10px;
+}
+
+.us-flag {
+    width: 20px;
+    margin: 0 2px;
+}
+
+.cart i {
+    font-size: 2rem;
+}
+
+/* #language {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 9px;
+    width: 16px;
+} */
+
+
+/** main nav **/
+.main-nav {
+    background-color: #232f3e;
+    height: 40px;
+}
+
+.menu {
+    padding: 8px;
+    margin: 0 6px;
+}
+
+.menu i {
+    font-size: 20px;
+    margin: 0 3px;
+}
+
+.shop {
+    font-size: 14px;
+    font-weight: 300;
+    width: 79%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop p {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.deals {
+    font-size: 15px;
+}
+
+/** Main **/
+main {
+    background: linear-gradient(45deg, #e3e6e6, transparent);
+
+}
+
+main a {
+    color: #007185;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: rgb(160, 56, 0);
+}
+
+main .section-1 {
+    width: 100%;
+    /* height: 400px; */
+    overflow: hidden;
+}
+
+
+main .section-1 .sec-1-img {
+    height: 20rem;
+}
+
+main .section-1 img {
+    background-size: cover;
+    width: 100%;
+    background: url(./images/hero_image.jpg) center;
+}
+
+/** Section 2 **/
+.section-2 {
+    position: relative;
+    /* bottom: 12rem; */
+    background: linear-gradient(90deg, #324065, #bacecf);
+    padding-bottom: 15px;
+}
+
+.section-2 .link {
+    width: 95%;
+    height: 30px;
+    background: #fbfafa;
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 15rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2px 0px;
+}
+
+.section-2>div {
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 4px black;
+    border-radius: 2px;
+    height: 400px;
+    width: 280px;
+    margin: 5px;
+    background: white;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.game>div {
+    cursor: pointer;
+}
+
+.section-2 .game img {
+    width: 13rem;
+    margin: auto;
+    background-size: cover;
+    margin: 0 9px;
+    position: relative;
+    right: 3rem;
+    cursor: pointer;
+}
+
+.game .inner-img {
+    height: 20rem;
+    width: 17rem;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.game .inner-img .game-pics {
+    height: 148px;
+    width: 131px;
+    /* border: 1px solid black; */
+}
+
+.section-2 h2,
+a {
+    margin-left: 27px;
+}
+
+.inner-img span {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.electronics img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.home-apps img {
+    width: 8rem;
+    cursor: pointer;
+}
+
+.home-access>div {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.home-access span {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/** Sign-in Box **/
+.sign-in {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+    height: 40%;
+}
+
+.sign-in button {
+    height: 30px;
+    width: 85%;
+    margin: 5px auto;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    background: #ffd814;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+
+.sign-in button:hover {
+    background: #fcd201;
+}
+
+.sign-in-box .product {
+    position: relative;
+    /* top: 4.2rem; */
+    height: 60%;
+}
+
+.toys img {
+    width: 16rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+
+.beauty-img img {
+    width: 25rem;
+    height: 21rem;
+    cursor: pointer;
+}
+
+.beauty-img {
+    width: 16rem;
+    height: 20rem;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.faishon .faishon-img-box {
+    height: 18rem;
+    width: 17rem;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.faishon-img-box .f-img {
+    width: 110px;
+    height: 139px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.faishon-img-box img {
+    width: 12rem;
+    /* height: 14rem; */
+    /* margin: auto; */
+    position: relative;
+    background-position: center;
+    right: 44px;
+    cursor: pointer;
+}
+
+.section-2 span {
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section-2 h2 {
+    font-size: 21px;
+}
+
+.computer .comp-img {
+    height: 72%;
+    width: 15rem;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+
+.computer .comp-img img {
+    width: 27rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    right: 6rem;
+    bottom: 3rem;
+    cursor: pointer;
+}
+
+/** Section 3 **/
+
+.section-3 {
+    background: linear-gradient();
+    /* border: 2px solid rebeccapurple; */
+    width: 95vw;
+    margin: 10px auto;
+    margin-bottom: 15px;
+    box-shadow: 0 0 4px black;
+
+}
+
+.sec-3-container {
+    padding: 19px;
+    background-color: white;
+}
+
+.section-3 .sec-3-box {
+    height: 14rem;
+    width: 8rem;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+
+}
+
+.section-3 img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/** Section 4 **/
+
+.section-4 {
+    width: 95vw;
+    margin: 0 auto;
+    background: white;
+    padding: 10px 1px;
+    box-shadow: 0px 0px 4px black;
+}
+
+.section-4 .container {
+    width: 100%;
+}
+
+.section-4 .boxes {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section-4 .boxes .sec-4-box {
+    /* border: 2px solid black; */
+    height: 15rem;
+    width: 13rem;
+    overflow: hidden;
+}
+
+.section-4 .boxes .sec-4-box img {
+    width: 14rem;
+    position: relative;
+    right: 1rem;
+    margin: auto;
+    top: 1rem;
+    cursor: pointer;
+
+}
+
+.section-5 {
+    /* background-color: white; */
+    width: 100vw;
+    justify-content: space-evenly;
+    margin: 23px auto;
+    padding: 10px 0;
+    /* box-shadow: 0 0 4px black; */
+
+}
+
+.section-5 .sec-5-box {
+    height: 25rem;
+    width: 17rem;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    box-shadow: 0 0 4px black;
+
+}
+
+.section-5 .sec-5-box h2 {
+    margin-left: 1rem;
+}
+
+.section-5 .sec-5-img {
+    height: 20rem;
+    width: 15rem;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.section-5 .sec-5-box img {
+    width: 25rem;
+    position: relative;
+    right: 5rem;
+    cursor: pointer;
+}
+
+.section-6 {
+    width: 100vw;
+    height: 8rem;
+    border-radius: 5px;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    background-color: white;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-6>button {
+
+    padding: 7px;
+    width: 14rem;
+    font-weight: bold;
+    background: linear-gradient(rgb(255 195 0), rgb(255 181 3), rgb(255 179 0));
+    border-radius: 4px;
+    border: none;
+    text-shadow: 0px 0.7px white;
+
+}
+
+.section-6>div {
+
+    font-size: 12px;
+    margin: 5px 0;
+
+}
+
+/** Footer **/
+footer{
+    /* height: 50vh; */
+}
+footer .top {
+    height: 3rem;
+    width: 100%;
+    background-color: #3c4e65;
+    margin:0 auto;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+footer .top:hover {
+    background-color: #4c5c71;
+}
+footer .top a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+
+}
+footer .top a h2 {
+    font-size: 1rem;
+}
+
+footer .info {
+    background: #37475a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+footer .info h2 {
+    font-size: 1.2rem;
+}
+footer .info ul li{
+    margin: 10px 0;
+}
+footer .info ul li a {
+    color: #e0dfdf;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+footer .info ul li a:hover {
+    text-decoration: underline;
+}

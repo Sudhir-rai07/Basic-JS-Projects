@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        @import url(./style.css);
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="nav flex a-center space-between" id="nav">
+            <div class="left flex a-center space-even">
+                <div class="logo a-center flex pointer border">
+                    <img src="./images/amazon_logo.png" alt="Amazon Logo" class="flex a-center border">
+                </div>
+                <div class="address flex border">
+                    <div class="location flex a-end">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="add flex column a-center j-start pointer">
+                        <span class="span-top">deliver to</span>
+                        <span class="bold flex j-start">India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mid flex a-center border">
+                <select name="select" id="items" class="pointer">
+                    <option value="all">All</option>
+                </select>
+                <input type="search" name="search" placeholder="Search Amazon">
+                <button class="btn pointer">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="right flex a-center border1 space-between">
+                <div class="flag flex f-base right-items pointer border">
+                    <img src="./images/united-states.png" alt="US" class="us-flag">
+                    <div class="en bold">EN</div>
+                    <select name="select-language" id="language" class="dropdown">
+                        <option value="En"></option>
+                    </select>
+                </div>
+                <div class="signin right-items pointer border">
+                    <span class="span-top">Hello, sign in</span>
+                    <div class="accounts flex a-center">
+                        <span class="span-bottom">Accounts & Lists</span>
+                        <select name="accs-lists" id="accs" class="dropdown"><i
+                                class="fa-solid fa-angle-down"></i></select>
+                    </div>
+                </div>
+                <div class="orders flex column right-items pointer border">
+                    <span style="font-size: 12px; color: rgb(185, 185, 185);">Returns</span>
+                    <span class="bold">& Orders</span>
+                </div>
+                <div class="cart right-items pointer border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="bold">Cart</span>
+                </div>
+            </div>
+
+        </nav>
+
+        <nav class="main-nav flex a-center">
+            <div class="menu flex a-center border pointer">
+                <i class="fa-solid fa-bars m-2"></i>
+                <span class="bold m-2">All</span>
+            </div>
+            <div class="shop flex">
+                <p class="m-4 pointer border">Today's Deals</p>
+                <p class="m-4 pointer border">Customer Service</p>
+                <p class="m-4 pointer border">Registry</p>
+                <p class="m-4 pointer border">Gift Cards</p>
+                <p class="m-4 pointer border">Sell</p>
+            </div>
+            <div class="deals bold">
+                Shop deals in Electronics
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-1 flex column" id="top">
+            <div class="sec-1-img overflow">
+                <img src="./images/hero_image.jpg" alt="main-img">
+            </div>
+
+
+        </section>
+
+        <section class="section-2 flex wrap j-center space-even">
+            <p class="link">You are on amazon.com. You can also shop on Amazon India for millions of products with fast
+                local delivery. <a href="https://amazon.com">Click here to go to amazon.in</a></p>
+            <div class="game flex wrap column space-even j-center a-center">
+                <div class="gaming-tag">
+                    <h2>Gaming</h2>
+                </div>
+                <div class="inner-img flex wrap space-between j-center a-center">
+                    <div class="game-pics flex column j-center overflow">
+                        <img src="./images/Gaming/chair.jpg" alt="Chair">
+                        <span>Chair</span>
+                    </div>
+                    <div class="game-pics flex column j-center overflow">
+                        <img src="./images/Gaming/headset.jpg" alt="Chair">
+                        <span>Headset</span>
+                    </div>
+                    <div class="game-pics flex column j-center overflow">
+                        <img src="./images/Gaming/keyboard.jpg" alt="Chair">
+                        <span>Keyboard</span>
+                    </div>
+                    <div class="game-pics flex column j-center overflow">
+                        <img src="./images/Gaming/mice.jpg" alt="Chair">
+                        <span>Mice</span>
+                    </div>
+                </div>
+                <div class="link">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+
+            <div class="electronics flex j-center a-center column space-even">
+                <h2>Electronics</h2>
+                <img src="./images/Ele/elec.jpg" alt="" class="cover">
+                <a href="#">See more</a>
+            </div>
+
+
+            <div class="home-apps flex column j-center a-center space-even">
+                <div>
+                    <h2>Refresh your space</h2>
+                </div>
+                <div class="home-access flex wrap space-even ">
+                    <div class="dining flex column">
+                        <img src="./images/home/Dining.jpg" alt="Dine">
+                        <span>Dining</span>
+                    </div>
+
+                    <div class="dining flex column">
+                        <img src="./images/home/health.jpg" alt="health">
+                        <span>Health</span>
+                    </div>
+
+                    <div class="dining flex column">
+                        <img src="./images/home/home.jpg" alt="Home">
+                        <span>Home</span>
+                    </div>
+
+                    <div class="dining flex column">
+                        <img src="./images/home/kitchen.jpg" alt="kitchen">
+                        <span>Kitchen</span>
+                    </div>
+                </div>
+                <div class="link f-start">
+                    <a href="#">See more</a>
+                </div>
+            </div>
+
+
+            <div class="sign-in-box flex  column overflow">
+                <div class="sign-in overflow a-center flex column j-center">
+                    <h2>
+                        Sign in for the best experience
+                    </h2>
+                    <button class="btn">Sign in securly</button>
+                </div>
+                <div class="product overflow">
+                    <img src="./images/b-4/products.jpg" alt="Products" style="width: 100%;" class="cover">
+                </div>
+            </div>
+
+            <div class="toys flex column a-center space-even">
+                <h2>Toys under $30</h2>
+                <img src="./images/Toys/toys.jpg" alt="Toys" class="cover">
+                <a href="#">See more</a>
+            </div>
+
+
+            <div class="beauty flex column a-center j-center space-even">
+                <h2>Beauty picks</h2>
+                <div class="beauty-img overflow">
+                    <img src="./images/beauty/beauty.jpg" alt="" class="cover">
+                </div>
+                <a href="#">See more</a>
+            </div>
+
+
+            <div class="faishon flex column a-center space-even j-center">
+                <h2>Shop deals in Fashion</h2>
+                <div class="faishon-img-box flex wrap a-center">
+                    <div class="f-img">
+                        <img src="./images/faishon/pic1.jpg" alt="">
+                        <span>Jeans under $50</span>
+                    </div>
+                    <div class="f-img">
+                        <img src="./images/faishon/pic2.jpg" alt="">
+                        <span>Tops under $25</span>
+                    </div>
+                    <div class="f-img">
+                        <img src="./images/faishon/pic3.jpg" alt="">
+                        <span>Dresses under $30</span>
+                    </div>
+                    <div class="f-img">
+                        <img src="./images/faishon/pic4.jpg" alt="">
+                        <span>Shoes under $50</span>
+                    </div>
+                </div>
+                <a href="#">See all deals</a>
+            </div>
+
+            <div class="computer flex column a-center space-even">
+                <h2>Computers & Accessories</h2>
+                <div class="comp-img overflow">
+                    <img src="./images/comp/comp.jpg" alt="">
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </section>
+
+        <section class="section-3 flex column j-center">
+            <div class="sec-3-container">
+                <h2>International top sellers</h2>
+                <div class="boxes flex ">
+                    <div class="sec-3-box box-1"><img src="./images/section-3/p1.jpg"></div>
+                    <div class="sec-3-box box-2"><img src="./images/section-3/p2.jpg"></div>
+                    <div class="sec-3-box box-3"><img src="./images/section-3/p3.jpg"></div>
+                    <div class="sec-3-box box-4"><img src="./images/section-3/p4.jpg"></div>
+                    <div class="sec-3-box box-5"><img src="./images/section-3/p5.jpg"></div>
+                    <div class="sec-3-box box-6"><img src="./images/section-3/p6.jpg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4 flex column space-even">
+            <div class="container flex column">
+                <h2 style="margin-left: 2rem;">Popular gifts in baby</h2>
+                <div class="boxes flex a-center space-even overflow space-even">
+                    <div class="sec-4-box box-1"><img src="./images/sec4/p1.jpg"></div>
+                    <div class="sec-4-box box-2"><img src="./images/sec4/p2.jpg"></div>
+                    <div class="sec-4-box box-3"><img src="./images/sec4/p3.jpg"></div>
+                    <div class="sec-4-box box-4"><img src="./images/sec4/p4.jpg"></div>
+                    <div class="sec-4-box box-5"><img src="./images/sec4/p5.jpg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-5 flex j-center">
+            <div class="sec-5-box">
+                <h2>New arrivals in Toys</h2>
+                <div class="sec-5-img"> <img src="./images/sec-5/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg" alt="">
+                </div>
+                <a href="#">See more</a>
+            </div>
+            <div class="sec-5-box">
+                <h2>Discover fashion trends</h2>
+
+                <div class="sec-5-img"> <img
+                        src="./images/sec-5/mp_20230219_ff_desktopsinglecategory_desktop_758x608._SY608_CB612846074_.jpg"
+                        alt=""></div>
+                <a href="#">See more</a>
+            </div>
+            <div class="sec-5-box">
+                <h2>For your Fitness Needs
+                </h2>
+
+                <div class="sec-5-img"><img src="./images/sec-5/Fuji_Dash_Fitness_2X._SY608_CB639748111_.jpg" alt="">
+                </div>
+                <a href="#">See more</a>
+            </div>
+            <div class="sec-5-box">
+                <h2>Home refresh ideas</h2>
+
+                <div class="sec-5-img"><img
+                        src="./images/sec-5/XCM_CUTTLE_1559454_3018199_758x608_2X_en_US._SY608_CB592739737_.jpg" alt="">
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </section>
+
+        <section class="section-6 flex column j-center">
+            <div>See personalized recommendations</div>
+            <button>Sign in</button>
+            <div>New customer?&nbsp;<a href="#" class="m-0">Start here.</a></div>
+        </section>
+    </main>
+
+
+    <footer class="flex column">
+        <div class="top">
+            <a href="#nav">
+                <h2>Back to top</h2>
+            </a>
+        </div>
+        <div class="info">
+            <div class="box-1">
+                <h2>Get to Know Us</h2>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Amazon Devices</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+
+            <div class="box-2">
+                <h2>
+                    Make Money with Us</h2>
+                <ul>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Self-Publish with Us</a></li>
+                    <li><a href="#">Host an Amazon Hub</a></li>
+                    <li><a href="#">See More Make Money with Us</a></li>
+                </ul>
+            </div>
+            <div class="box-3">
+                <h2>
+                    Amazon Payment Products
+                </h2>
+                <ul>
+                     <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+            <div class="box-4">
+                <h2>Let Us Help You</h2>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                    <li><a href="#">Returns & Replacements</a></li>
+                    <li><a href="#">Manage Your Content and Devices</a></li>
+                    <li><a href="#">Amazon Assistant</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/d66f02fff4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
