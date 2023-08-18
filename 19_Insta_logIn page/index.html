@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d66f02fff4.js" crossorigin="anonymous"></script>
+
+    <title>Instagram Login page</title>
+    <style>@import url(./style.css);</style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="login-section">
+            <img src="./pngegg.png" alt="">
+            <form class="login-form" onsubmit="return false">
+                <!-- Username -->
+                <input type="text" placeholder="Phone number, username, or email" id="username" name="username">
+
+                <!-- password -->
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <!-- login button -->
+                <button type="submit">Log in</button>
+                <div class="or">
+                    <span></span>
+                    OR
+                    <span></span>
+                </div>
+
+                <!-- login with fb -->
+                <div class="fb-login">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Log in with Facebook</span>
+                </div>
+
+                <!-- Forget password -->
+              <div class="forget-password">
+                <a href="#">
+                    <small>Forget password?</small>
+                </a> 
+              </div> 
+            </form>
+        </div>
+        <div class="new-account">
+            <span>Don't have an account? <a href="#">Sign up</a></span>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
